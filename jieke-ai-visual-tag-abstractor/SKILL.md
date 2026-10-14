@@ -52,18 +52,20 @@ Do not add `Pose or Composition` or `Lighting`. Keep each bilingual item paired 
 ## Copyright and use boundaries
 
 - Use reference images to identify observable visual elements, not to reproduce a protected image pixel for pixel.
+- Treat image access as separate from reuse permission: check the source image's copyright, license, site terms, and any publicity or brand restrictions.
 - Do not claim affiliation, endorsement, or official status. Keep source URLs and licensing notes in the evidence or audit files.
 - Character names, logos, emblems, distinctive costumes, and settings may remain protected or trademarked even when the output is newly rendered. For public or commercial work, check the IP owner's terms and obtain permission or a suitable license where required.
 - Do not request or preserve a named living artist's signature style. Describe neutral production properties such as lens, material, lighting, rendering pipeline, and composition instead.
-- When the intended use, rights status, or degree of transformation is unclear, record the risk in `BLOCKED.md` and use a generic, non-infringing alternative until reviewed.
+- This workflow is not legal advice. When the intended use, rights status, or degree of transformation is unclear, record the risk in `BLOCKED.md`, use generic visual language, and pause high-risk public or commercial use until reviewed.
 
 ## 版权与使用边界
 
 - 图片仅用于识别可见视觉元素，不逐像素复刻受保护图片。
+- 图片可访问不等于获得再利用许可；应单独核对图片版权、许可证、站点条款以及肖像或品牌限制。
 - 不宣称官方关联、授权或背书；图片来源和许可信息只放入证据或审计文件。
 - 角色名称、标志、纹章、独特服装和世界观设定可能仍受版权或商标保护。公开发布或商业使用前，应检查权利方条款，必要时取得授权或合适许可。
 - 不要求或保留在世艺术家的可识别个人画风；改用镜头、材质、光线、渲染管线和构图等中性的制作属性。
-- 用途、权利状态或改造程度无法确认时，写入 `BLOCKED.md`，先使用通用且不指向受保护标识的替代方案。
+- 本流程不构成法律意见。用途、权利状态或改造程度无法确认时，写入 `BLOCKED.md`，先使用通用且不指向受保护标识的视觉描述，并暂停高风险公开或商业使用。
 
 ## Evidence and blockers
 

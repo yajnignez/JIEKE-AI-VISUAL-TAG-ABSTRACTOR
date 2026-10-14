@@ -63,5 +63,7 @@ Equipment or Components: ...
 - Image evidence identifies the object, URL, source type, image type, and verification state.
 - Unconfirmed facts are listed in `BLOCKED.md` with sources and temporary handling.
 - Reference images are used for observable analysis, not pixel-for-pixel copying.
+- Image access is not reuse permission; review copyright, license, site terms, and publicity or brand restrictions.
 - Public, commercial, or derivative use is checked against the selected IP's copyright, trademark, license, and publicity constraints.
+- The Skill is workflow guidance, not legal advice; record unresolved rights questions in `BLOCKED.md`.
 - No recognizable living artist's signature style is requested or preserved.

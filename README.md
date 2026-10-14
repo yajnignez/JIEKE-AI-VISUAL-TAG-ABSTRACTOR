@@ -25,7 +25,7 @@
 
 ### 版权与使用风险
 
-图片只用于观察可见元素，不逐像素复刻原图，也不把生成结果描述为官方作品。指定 IP 的名称、角色、标志、纹章、服装和场景可能受版权或商标保护；公开发布、商业使用或用于衍生作品前，应核对权利方条款并在需要时取得许可。不要要求或保留在世艺术家的可识别个人画风。无法确认权利范围时，写入 `BLOCKED.md` 并改用通用视觉描述。
+图片只用于观察可见元素，不逐像素复刻原图，也不把生成结果描述为官方作品。图片本身的版权、授权范围、站点使用条款和人物/品牌权利仍需单独核对；“可访问”不等于“可再利用”。指定 IP 的名称、角色、标志、纹章、独特服装和场景可能受版权、商标或其他专有权保护。公开发布、商业使用、广告、游戏资产或衍生作品前，应核对权利方条款并在需要时取得许可；本 Skill 不提供法律意见。不要要求或保留在世艺术家的可识别个人画风。无法确认权利范围时，写入 `BLOCKED.md`，保留通用视觉描述并暂停高风险用途。
 
 ### 目录
 
@@ -58,7 +58,7 @@ Install the `jieke-ai-visual-tag-abstractor` directory in a Codex Skills directo
 
 ### Copyright and use risks
 
-Use images to identify observable elements rather than reproducing protected artwork pixel for pixel. Do not claim official affiliation or endorsement. Names, logos, emblems, signature costumes, and settings from a chosen IP may remain copyrighted or trademarked; review the rights holder's terms and obtain permission where public, commercial, or derivative use requires it. Do not request or preserve a recognizable living artist's personal style. When rights or transformation boundaries are unclear, record the risk in `BLOCKED.md` and switch to generic visual language.
+Use images to identify observable elements rather than reproducing protected artwork pixel for pixel. The image's own copyright, license, site terms, and publicity or brand rights still require separate review; accessibility does not grant reuse permission. Do not claim official affiliation or endorsement. Names, logos, emblems, distinctive costumes, and settings from a chosen IP may remain protected by copyright, trademark, or other proprietary rights. Before public release, commercial use, advertising, game assets, or derivative work, review the rights holder's terms and obtain permission where required; this Skill is not legal advice. Do not request or preserve a recognizable living artist's personal style. When rights or transformation boundaries are unclear, record the risk in `BLOCKED.md`, keep the visual language generic, and pause high-risk use.
 
 ### Contents
 
