@@ -1,14 +1,14 @@
-# Warcraft III Visual Symbols / 魔兽争霸 III 视觉符号 Skill
+# JIEKE AI Visual Tag Abstractor
 
 ## 中文
 
-本仓库发布 `warcraft3-visual-symbols` Codex Skill，用于建立《魔兽争霸 III：混乱之治》和《冰封王座》的图片证据驱动视觉符号资料。Skill 将官方文字资料限定为名称、类别、阵营、战役归属和覆盖范围核验；视觉标签必须从对象图片中观察得到，并与图片证据和阻塞审计分开保存。
+本仓库发布 `jieke-ai-visual-tag-abstractor` Codex Skill，用于把任意指定 IP 的角色、建筑、道具、载具、地点和场景图片整理为图片证据驱动的视觉符号资料。Skill 将官方文字资料限定为名称、类别、归属、故事或战役范围核验；视觉标签必须从对象图片中观察得到，并与图片证据和阻塞审计分开保存。Warcraft III 是已验证示例，不是适用范围限制。
 
 ### 适用范围
 
-- 角色：战役命名角色、英雄、可训练单位、召唤物、中立生物和战役专属单位。
-- 建筑：四大种族生产、资源、科技、防御、主城建筑，以及具有独立模型的中立、战役专属、废墟和毁坏形态。
-- 场景：官方战役主要地点、独特过场地点、主要地貌和阵营环境母题。
+- 角色和生物：角色、英雄、单位、召唤物、首领和变体。
+- 物体和建筑：建筑、道具、载具、机械、武器和具有独立模型的毁坏形态。
+- 地点和场景：官方地点、独特过场地点、主要地貌和环境母题。
 
 ### 输出原则
 
@@ -21,23 +21,27 @@
 
 ### 使用
 
-将 `warcraft3-visual-symbols` 目录放入 Codex Skills 目录，或在任务中调用 `$warcraft3-visual-symbols`。执行时先读取项目的 `work/PROGRESS.md`、`outputs/BLOCKED.md`、`outputs/coverage_audit.md` 和 `outputs/image_evidence.md`，从首个未完成阶段继续，并在使用浏览器核验图片后关闭页面。
+将 `jieke-ai-visual-tag-abstractor` 目录放入 Codex Skills 目录，或在任务中调用 `$jieke-ai-visual-tag-abstractor`。执行时先读取项目的 `work/PROGRESS.md`、`outputs/BLOCKED.md`、`outputs/coverage_audit.md` 和 `outputs/image_evidence.md`，从首个未完成阶段继续，并在使用浏览器核验图片后关闭页面。
+
+### 版权与使用风险
+
+图片只用于观察可见元素，不逐像素复刻原图，也不把生成结果描述为官方作品。指定 IP 的名称、角色、标志、纹章、服装和场景可能受版权或商标保护；公开发布、商业使用或用于衍生作品前，应核对权利方条款并在需要时取得许可。不要要求或保留在世艺术家的可识别个人画风。无法确认权利范围时，写入 `BLOCKED.md` 并改用通用视觉描述。
 
 ### 目录
 
-- `warcraft3-visual-symbols/SKILL.md`：Skill 入口与工作流程。
-- `warcraft3-visual-symbols/references/schema.md`：字段、记录模板和审计清单。
-- `warcraft3-visual-symbols/agents/openai.yaml`：Codex 界面元数据。
+- `jieke-ai-visual-tag-abstractor/SKILL.md`：Skill 入口与工作流程。
+- `jieke-ai-visual-tag-abstractor/references/schema.md`：字段、记录模板和审计清单。
+- `jieke-ai-visual-tag-abstractor/agents/openai.yaml`：Codex 界面元数据。
 
 ## English
 
-This repository publishes the `warcraft3-visual-symbols` Codex Skill for an image-evidence-grounded visual symbol catalog covering *Warcraft III: Reign of Chaos* and *The Frozen Throne*. Official text is used only to confirm names, categories, factions, campaign membership, and coverage. Visual labels must come from observable image elements and remain separate from the evidence log and blocker audit.
+This repository publishes the `jieke-ai-visual-tag-abstractor` Codex Skill, a reusable IP-agnostic workflow for turning reference images of characters, buildings, props, vehicles, places, and scenes into image-evidence-grounded visual symbol catalogs. Warcraft III is a validated example project, not the scope limit. Official text is used only to confirm names, categories, affiliation, story or campaign membership, and coverage.
 
 ### Scope
 
-- Characters: named campaign characters, heroes, trainable units, summons, neutral creatures, and campaign-exclusive units.
-- Buildings: production, resource, technology, defense, and town-center buildings for all four factions, plus independent neutral, campaign, ruin, and destroyed forms.
-- Scenes: major official campaign locations, distinctive cutscene places, terrain types, and faction environment motifs.
+- Characters and creatures: named characters, heroes, units, summons, bosses, and variants.
+- Objects and buildings: buildings, props, vehicles, machines, weapons, and independent destroyed forms.
+- Places and scenes: official locations, distinctive cutscene places, terrain types, and environment motifs.
 
 ### Output rules
 
@@ -50,10 +54,14 @@ This repository publishes the `warcraft3-visual-symbols` Codex Skill for an imag
 
 ### Usage
 
-Install the `warcraft3-visual-symbols` directory in a Codex Skills directory or invoke `$warcraft3-visual-symbols`. Before editing, read `work/PROGRESS.md`, `outputs/BLOCKED.md`, `outputs/coverage_audit.md`, and `outputs/image_evidence.md`; resume from the first unfinished stage and close the browser after each image review.
+Install the `jieke-ai-visual-tag-abstractor` directory in a Codex Skills directory or invoke `$jieke-ai-visual-tag-abstractor`. Before editing, read `work/PROGRESS.md`, `outputs/BLOCKED.md`, `outputs/coverage_audit.md`, and `outputs/image_evidence.md`; resume from the first unfinished stage and close the browser after each image review.
+
+### Copyright and use risks
+
+Use images to identify observable elements rather than reproducing protected artwork pixel for pixel. Do not claim official affiliation or endorsement. Names, logos, emblems, signature costumes, and settings from a chosen IP may remain copyrighted or trademarked; review the rights holder's terms and obtain permission where public, commercial, or derivative use requires it. Do not request or preserve a recognizable living artist's personal style. When rights or transformation boundaries are unclear, record the risk in `BLOCKED.md` and switch to generic visual language.
 
 ### Contents
 
-- `warcraft3-visual-symbols/SKILL.md`: Skill entry point and workflow.
-- `warcraft3-visual-symbols/references/schema.md`: Field schema, record template, and audit checklist.
-- `warcraft3-visual-symbols/agents/openai.yaml`: Codex UI metadata.
+- `jieke-ai-visual-tag-abstractor/SKILL.md`: Skill entry point and workflow.
+- `jieke-ai-visual-tag-abstractor/references/schema.md`: Field schema, record template, and audit checklist.
+- `jieke-ai-visual-tag-abstractor/agents/openai.yaml`: Codex UI metadata.
