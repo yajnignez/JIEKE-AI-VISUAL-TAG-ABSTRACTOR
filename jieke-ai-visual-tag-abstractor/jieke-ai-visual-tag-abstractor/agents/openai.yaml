@@ -1,4 +1,0 @@
-interface:
-  display_name: "JIEKE AI Visual Tag Abstractor"
-  short_description: "Abstract image-grounded visual tags for named IPs"
-  default_prompt: "Use $jieke-ai-visual-tag-abstractor to build or audit an image-grounded visual symbol catalog for a named IP."

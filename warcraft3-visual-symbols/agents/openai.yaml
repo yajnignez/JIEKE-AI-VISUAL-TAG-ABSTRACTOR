@@ -1,4 +1,0 @@
-interface:
-  display_name: "Warcraft III Visual Symbols"
-  short_description: "Build image-grounded Warcraft III visual symbol catalogs"
-  default_prompt: "Use $warcraft3-visual-symbols to build or audit an image-grounded Warcraft III visual symbol catalog."
