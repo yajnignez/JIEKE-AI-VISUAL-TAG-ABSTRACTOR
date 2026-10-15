@@ -9,7 +9,7 @@
 - 按项目建立角色、建筑、道具、载具、地点和场景等内部清单。
 - 按图片可见元素提取中英双语短标签。
 - 为对象加入不重复场景的叙事性标识，让角色和建筑适合生成群像与行动画面。
-- 后续对象逐条独立核验：一次打开一张图，观察后关闭页面；优先整体形象、装备、轮廓和环境互动，减少面部特写。
+- 后续对象按原有证据核验方式处理：以主要参考图为主，必要时交叉第二张不同角度、状态或场景图；优先整体形象、装备、轮廓和环境互动，减少面部特写。
 - 用一句话压缩 IP 地图、地点和环境母题。
 - 记录图片链接、来源类型、图片类型和核验状态。
 - 将无法确认的名称、版本、视觉差异和地图边界写入 `BLOCKED.md`。
@@ -49,7 +49,7 @@ This Codex Skill keeps the JIEKE identity while providing a reusable, IP-agnosti
 - Maintain internal lists for the object classes requested by the selected IP.
 - Extract bilingual short labels from visible image elements.
 - Add narrative cues that describe action and relationships without repeating the scene field.
-- Verify later objects independently, opening one image at a time and closing it after observation; prefer whole figures, equipment, silhouettes, and environmental interaction over face close-ups.
+- Verify later objects through the standard evidence workflow: use the primary reference image and cross-check a second angle, state, or scene image when available; prefer whole figures, equipment, silhouettes, and environmental interaction over face close-ups.
 - Compress map, location, and environment motifs into one sentence.
 - Track image links, source type, image type, and verification state.
 - Record uncertain names, versions, model differences, and map boundaries in `BLOCKED.md`.
